@@ -22,7 +22,11 @@ command /simplehacks [<text>] [<text>]:
 				set {_tps} to server TPS
 				set {_tpspercent} to 100 - ({_tps} * 5}
 				message "&6Latence serveur %{_tpspercent}% %%"
+			if arg 1 is "
 		else:
-			send "&4Tu n'as pas les autorisations !"
+			send "&cSimple Hacks"
+			send " "
+			send "&aSimple hacks est créer par Redstoneworld et R3_Julie, si tu aimes bien leurs travailles viens sur Discord avec nous"
+			send "Liens: https://discord.gg/VYrhJ93"
 
 # Il y aura une mise a jour bientôt :)
