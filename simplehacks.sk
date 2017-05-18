@@ -1,0 +1,28 @@
+# AriaCraft - Network
+# Par: Redstoneworld et R3_Julie
+options:
+	version: &7ALPHA-1.0
+	
+command /simplehacks [<text>] [<text>]:
+	description: AriaCraft commande
+	trigger:
+		if player has permission "op" or "ariacraft.simple.hacks":
+			if arg 1 is not set:
+				send "&6Créateur: &aR3dStone_ et R3_Julie"
+				send "&6Version: {@version}"
+			if arg 1 is "blacklist":
+				if arg 2 is set:
+					broadcast "&c[&4Blacklist Message&c]&e Un joueur vient d'être blacklister du serveur !"
+					send "&cBlacklist Message:"
+					send " "
+					send "&aJoueur Blacklist: %arg 2%"
+					send "&eTime: &4PERMANENT"
+					ban the IP-address of the argument 2 
+			if arg 1 is "tps" or "stat" or "stats" or "lag" or "lagging":
+				set {_tps} to server TPS
+				set {_tpspercent} to 100 - ({_tps} * 5}
+				message "&6Latence serveur %{_tpspercent}% %%"
+		else:
+			send "&4Tu n'as pas les autorisations !"
+
+# Il y aura une mise a jour bientôt :)
