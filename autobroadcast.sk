@@ -1,0 +1,8 @@
+# Ariacraft - Network
+# Par: Redstoneworld
+every 120 seconds:
+	broadcast "&8[&9!&8]&7 Un problème avec un joueur ou une simple question au staff ? Fais &c///help &c&oton problème"
+	wait 30 seconds
+	broadcast "&8[&9!&8]&7 Vous avez un compte Twitter ? Suivez nous &b@AriaCraft_MC"
+	wait 30 seconds
+	broadcast "&8[&9!&8]&7 Vous voulez faire un tour sur le site ? https://www.ariacraft.net"
