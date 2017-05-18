@@ -1,6 +1,11 @@
-# Développement Skript pour AriaCraft - Network
-# Ariacraft est un network orienté Minecraft
+# Bienvenue sur les fichiers de développement d'AriaCraft
 
-Vous êtes sur les fichiers de développement de Redstoneworld pour Ariacraft
+Ariacraft est un serveur orienté Minecraft avec un serveur Garry's Mod
 
-Sur c'est fichier il y a l'avancement du Serveur
+Liens utiles:
+
+Site:  https://www.ariacraft.net
+
+Discord: https://discord.gg/WsKvyyF
+
+Twitter: @AriaCraft_MC
